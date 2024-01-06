@@ -5,29 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>AI Quotes for Dog Lovers Generator</title>
 </head>
 
 <body>
-    <header>
-        <h1>Quotes for Dog Lovers Generator</h1>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Quotes for Dog Lovers Generator</h1>
+        </header>
 
-    <main>
-        <input type="text" placeholder="Type Your Mood" autofocus autocomplete="off" />
-        <input type="submit" name="" id="">
-        <div>
-            Quotes: Happiness is a warm puppy.
-            <br />
-            Quotes: A dog is the only thing on earth that loves you more than he loves himself..
-        </div>
+        <main>
+            <form action="">
+                <input type="text" class="input-bar" placeholder="Type Your Mood" autocomplete="off" required />
+                <input type="submit" class="submit-button" name="" id="">
+            </form>
+            <div class="quote">
+                Quotes: Happiness is a warm puppy.
+                <br />
+                Quotes: A dog is the only thing on earth that loves you more than he loves himself..
+            </div>
 
-    </main>
+        </main>
 
-    <footer>This AI project is coded by <a href="https://github.com/yoshino62" target="_blank">Yoshino</a> and
-        is open-sourced on <a href="https://github.com/yoshino62/dog-quotes-generator" target="_blank">GitHub</a>
-        and is hosted on <a href="https://quotes-for-dog-lovers-generator.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+        <footer>This AI project is coded by <a href="https://github.com/yoshino62" target="_blank">Yoshino</a> and
+            is open-sourced on <a href="https://github.com/yoshino62/dog-quotes-generator" target="_blank">GitHub</a>
+            and is hosted on <a href="https://quotes-for-dog-lovers-generator.netlify.app/" target="_blank">Netlify</a>
+        </footer>
+    </div>
 
     <script src="src/index.js"></script>
 </body>
