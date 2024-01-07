@@ -69,3 +69,7 @@ a {
   line-height: 36px;
   box-shadow: 10px 5px 5px rgba(97, 96, 96, 0.2);
 }
+
+.quote strong {
+  color: #feab0f;
+}

@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>AI Quotes for Dog Lovers Generator</title>
 </head>
 
@@ -22,8 +23,9 @@
 
         <main>
             <form id="quote-generator-form">
-                <input type="text" class="input-bar" placeholder="Type Your Mood" autocomplete="off" required />
-                <input type="submit" class="submit-button" name="" id="">
+                <input type="text" class="input-bar" id="user-intructions" placeholder="Type Your Mood"
+                    autocomplete="off" required />
+                <input type="submit" class="submit-button">
             </form>
             <div class="quote" id="quote"></div>
 
