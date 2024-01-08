@@ -19,13 +19,23 @@ h1 {
   line-height: 1.5;
 }
 
-form {
-  display: flex;
+.form-container {
   background-color: #f5e1ce;
-  padding: 30px;
   margin-bottom: 40px;
+  padding: 20px;
   border-radius: 15px;
   box-shadow: 10px 5px 5px rgba(97, 96, 96, 0.2);
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.5;
+  margin-top: 8px;
 }
 
 footer {
@@ -70,6 +80,25 @@ a {
   box-shadow: 10px 5px 5px rgba(97, 96, 96, 0.2);
 }
 
+.hidden {
+  display: none;
+}
+
 .quote strong {
   color: #feab0f;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
